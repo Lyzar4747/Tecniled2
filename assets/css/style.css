@@ -4,17 +4,19 @@
     box-sizing:border-box;
 }
 
+
 :root{
     --color-oscuro:#0D0D0D;
     --color-secundario:#1A1A1A;
     --color-dorado:#F2AE30;
-    --color-blanco:#FFFFFF;
+    --color-blanco:#942828;
 }
 
 body{
     font-family:'Segoe UI', sans-serif;
     background-color:var(--color-oscuro);
     color:var(--color-blanco);
+    overflow-x:hidden;
 }
 
 /* HEADER */
